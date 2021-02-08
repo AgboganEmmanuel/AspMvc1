@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_Vues_Controller", "TP_Vues_Controller.csproj", "{ABC41222-757D-4B71-A2BB-3BE5B9429075}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABC41222-757D-4B71-A2BB-3BE5B9429075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC41222-757D-4B71-A2BB-3BE5B9429075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC41222-757D-4B71-A2BB-3BE5B9429075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC41222-757D-4B71-A2BB-3BE5B9429075}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E285114-FB8A-4DB7-B911-F005F88130C3}
+	EndGlobalSection
+EndGlobal

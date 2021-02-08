@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TP_Vues_Controller</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/Bootstrap_theme.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ionicons/3.0.0/css/ionicons.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta property="og:image" name="twitter:image" content="http://bootstrap.themes.guide/assets/themesguide.gif">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Bootstrap 4 Themes and Templates">
+    <meta name="twitter:description" content="Download free, open source Bootstrap 4 themes and templates by Themes.guide.">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103606808-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-103606808-1');
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TP_Vues_Controller</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clients" asp-action="Index">Clients</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer id="footer" class="bg-dark text-white fixed-bottom">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-6 col-md-6 col-lg-3 column">
+                    <h6>Information</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="http://themes.guide/#freebies">Free Themes</a>
+                        </li>
+                        <li>
+                            <a href="http://themes.guide/#themes">Pro Themes</a>
+                        </li>
+                        <li>
+                            <a href="http://themes.guide/#about">Benefits</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 column text-lg-left text-right">
+                    <h6>Tools</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://themestr.app" title="Custom Bootstrap theme creator - SASS to CSS">Themestr.app</a>
+                        </li>
+                        <li>
+                            <a href="http://bootstrap4.guide" title="Learn about Bootstrap 4">Bootstrap4.guide</a>
+                        </li>
+                        <li>
+                            <a href="http://www.codeply.com" title="Prototype and edit code for Bootstrap and other responsive frameworks">Codeply</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 column">
+                    <h6></h6>
+                </div>
+                <div class="col-6 col-lg-3 column text-right">
+                    <h6>Follow</h6>
+                    <ul class="nav float-right">
+                        <li><a class="nav-link px-1" href="//twitter.com/ThemesGuide" title="JL"><i class="fa fa-3x ion-logo-twitter"></i></a></li>
+                        <li><a class="nav-link px-1" href="https://github.com/ThemesGuide/bootstrap-themes" title="Star on GitHub"><i class="fa fa-3x ion-ios-star-outline"></i></a></li>
+                        <li><a class="nav-link pl-1 pr-0" href="https://github.com/ThemesGuide" title="Follow on GitHub"><i class="fa fa-3x ion-logo-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5">
+            <p class="small text-right">Made with ♥ by <a class="text-white" href="http://themes.guide">Themes.guide</a> ©2018</p>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!--scripts loaded here-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="scripts.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>
